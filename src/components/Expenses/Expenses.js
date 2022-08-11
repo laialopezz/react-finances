@@ -2,7 +2,7 @@ import ExpenseItem from "./ExpenseItem/ExpenseItem";
 import Card from "./../Shared/Card/Card";
 import "./Expenses.css";
 
-function Expenses(props) {
+const Expenses = (props) => {
   const expenses = props.expenses;
   return (
     <Card className="expenses">
@@ -23,6 +23,6 @@ function Expenses(props) {
       />
     </Card>
   );
-}
+};
 
 export default Expenses;
